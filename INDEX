@@ -1,0 +1,157 @@
+SIT                     Systematic Investor Toolbox.
+XTSFunctions            The timezone is set to 'GMT' by default
+asc                     Working with characters
+beta.degree             Convert beta (slope of regression line) to
+                        degrees
+bt.append.today         Append today's quotes
+bt.apply.min.weight     Remove small weights
+bt.apply.round.weight   Round weights
+bt.make.cashflow.event.summary.table
+                        Summarize bt.run.share.ex events
+bt.make.trade.event.summary.table
+                        Summarize bt.run.share.ex events
+bt.prep.trim            Trim data environment
+bt.run.share.ex         New Share Back Test functionality to properly
+                        capture portfolio changes. This is an event
+                        driven back test that updates portfolio at
+                        every trade event
+bt.run.share.ex.allocate
+                        Do one period re balance
+bt.run.share.ex.invest
+                        minimally update portfolio to allocate cashflow
+                        only add new positions, such that abs(shares)
+                        only increases
+bt.run.share.ex.test    Test for bt.run.share.ex functionality
+bt.run.share.ex.test.cashflow
+                        Test for bt.run.share.ex cashflow functionality
+bt.run.share.ex.test.tax
+                        Test for bt.run.share.ex tax functionality
+bt.run.share.unadjusted.test
+                        Test for bt.run.share.unadjusted functionality
+bt.run.share.unadjusted.test.data
+                        Test for bt.run.share.unadjusted functionality
+bt.start.dates          Print starting dates for time series
+bt.unadjusted.add.div.split
+                        Append dividend and split columns
+clusterApplyLB.log      Parallel Helper Log functions
+col.add.alpha           Make color semi-transparent
+compute.cor             Compute correlations
+convert2expr            Work with expressions
+                        as.expression(quote(x=2+y))
+count                   Count number of non NA elements
+create.monthly.table    Create monthly table
+createNonReactiveTextInput
+                        Create a non reactive version of textInput.
+data.ft.search.ticker   [sp500](http://markets.ft.com/research/Markets/Tearsheets/Constituents?s=INX:IOM)
+                        [tsx](http://markets.ft.com/research/Markets/Tearsheets/Constituents?s=TSEA:TOR)
+                        [ftse](http://markets.ft.com/research/Markets/Tearsheets/Constituents?s=FTSE:FSI)
+dates2index             Determine the index of subset of dates in the
+                        time series
+default.round.lot.control
+                        default.round.lot.control
+default.tax.control     default.tax.control
+env                     Shortcut for new.env function
+event.at                Helper functions, subject to change
+find.names              Determine location of given names in column
+                        names of data
+flip.xts                Reverse order of 'xts' object
+fred.fx.symbol          Get list of FX symbols from FRED [FRED H.10
+                        Foreign Exchange
+                        Rates](https://research.stlouisfed.org/fred2/release?rid=17)
+fxhistoricaldata.fx.symbol
+                        Get list of FX symbols from
+                        FXHISTORICALDATA.COM
+                        [FXHISTORICALDATA.COM](http://www.fxhistoricaldata.com/)
+get.extension           File name Functions
+getSymbols.extra        Helper function to extend functionality of
+                        getSymbols
+getSymbols.intraday     Helper function to add Intraday prices
+getSymbols.sit          Helper function to read historical stock prices
+                        saved by Seasonality tool
+hist.quotes.url         URL for various data providers
+ifna                    Replace NA, NaN, Inf values
+ifnull                  Replace NULL values
+iif                     Faster version of ifelse function
+iline                   Add Vertical, Horizontal, Cross line to
+                        existing plot at location of mouse click based
+                        on getGraphicsEvent grDevices
+index.xts               Fast alternative to index() function for 'xts'
+                        object
+join                    Join vector of strings into one string using
+                        delim
+len                     Shortcut for length function
+load.packages           Load Packages that are available and install
+                        ones that are not available
+lookup.index            Find location: row, col in the matrix, given
+                        index of of observation
+ls.f                    List function / variables in environment
+lst                     Shortcut for list creation function
+make.stock.xts          Create stock like 'xts' object from one column
+                        time series
+make.xts                Create 'xts' object, faster version of 'xts'
+                        function
+map2monthly             Map given time series to monthly
+map2vector              Flexible utility function to Map value(s) to
+                        vector
+mat                     convenience shortcut for matrix function
+mlag                    Lag matrix or vector
+mlast                   Last elements of matrix or vector
+plot.table              Plot Table
+plot.txt                Create Ascii(txt) plot
+plot12month.rolling.spread
+                        Plot 12 Month Spread for 2 symbols over common
+                        period
+plota                   Plot function for time series
+plota.add.copyright     Add Copyright message to the plot
+plota.format            Format numbers using 1000 separator
+plota.grid              Add grid to time series plot
+plota.layout            Create layout
+plota.legend            Plot legend - shortcut to the 'legend' function
+plota.lines             Add lines to time series plot
+plota.matplot           'matplot' version for 'xts' object
+plota.recession         Add recession bars to the existing plot
+plota.stacked           Create Stacked plot
+plota.text              Add text to time series plot
+plota.theme             Plota Control Parameters & Themes
+plota.x.highlight       Highlight vertical segments
+plota.y.highlight       Highlight horizontal segments
+plota2Y                 Plot time series with second Y axis
+proxy.overlay.plot      Plot all proxies overlaying the longest one
+proxy.prices            Plot complete history for each index for Close
+                        and Adjusted, and create summary table
+proxy.test              Plot proxies and create summary table over
+                        common period
+read.xts                Read 'xts' object from file
+rep.col                 Repeat Columns
+rep.row                 Repeat Rows
+repmat                  Replicate and tile a given vector
+rev.map                 Reverse mapping
+round.lot               Round Lot a helper function for round.lot.basic
+round.lot.basic         Round Lot Basic round lot to the nearest
+                        lot.size and next try to reallocate remaining
+                        cash
+round.lot.basic.base    Round Lot Basic Base round lot to the nearest
+                        lot.size
+run.count               Running Count over given window
+scale.one               Normalize all timeseries to start at one
+setup.cluster           Helper function to setup cluster
+spl                     Split string into tokens using delim
+string.buffer           String Buffer class - fast storage for strings
+tableColor              Add color highlighting to the 'reactiveTable'
+                        function
+tax.cashflows           Compute Taxes due at the end of the year
+test.equality           Shortcut for all.equal function
+tic                     Begin Timing
+trim                    Remove any leading and trailing spaces
+vec                     convenience shortcut for as.vector function
+verify.control          verify.control
+visualize.system.parameter.optimization
+                        Visualize System Parameter Optimization based
+                        on [Visualizing
+                        Data](http://sanzprophet.blogspot.tw/2013/01/visualizing-data.html)
+                        The article was using
+                        [XDat](http://www.xdat.org/index.php?ref=download)
+                        app
+write.file              Reverse mapping
+write.xts               Write 'xts' object to file
+xts2ts                  Convert 'xts' object to 'ts' object
